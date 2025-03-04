@@ -12,3 +12,4 @@
 /Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/EmployeePayrollSystem.pdb
 /Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/EmployeePayrollSystem.genruntimeconfig.cache
 /Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/ref/EmployeePayrollSystem.dll
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/EmployeePayrollSystem.sourcelink.json

@@ -1,4 +1,10 @@
-﻿class Program
+﻿using System;
+using EmployeePayrollSystem.Application.Interfaces;
+using EmployeePayrollSystem.Application.UseCases;
+using EmployeePayrollSystem.Domain;
+using Employee = EmployeePayrollSystem.Domain.Employee;
+
+class Program
 {
     static void Main()
     {
@@ -6,7 +12,7 @@
         bool exit = false;
 
         while (!exit)
-                {
+        {
             Console.WriteLine("\nWelcome to Employee Payroll System!");
             Console.WriteLine("1. Add Employee");
             Console.WriteLine("2. Get Employee by ID");
@@ -40,11 +46,6 @@
                     break;
             }
         }
-    }
-
-    private static void ShowAllEmployees(IEmployeePayrollService payrollService)
-    {
-        throw new NotImplementedException();
     }
 
     static void AddEmployee(IEmployeePayrollService payrollService)
@@ -86,58 +87,22 @@
         }
     }
 
-   
+    static void ShowAllEmployees(IEmployeePayrollService payrollService)
+    {
+        var employees = payrollService.GetAllEmployees();
+        if (employees.Count == 0)
+        {
+            Console.WriteLine("No employees found.");
+        }
+        else
+        {
+            employees.ForEach(emp => Console.WriteLine(emp));
+        }
+    }
 
     static void CalculateTotalPayroll(IEmployeePayrollService payrollService)
     {
         double totalPayroll = payrollService.CalculateTotalPayroll();
         Console.WriteLine($"Total Payroll (Net Salary): {totalPayroll:C}");
     }
-}
-
-internal class Employee
-{
-    private int id;
-    private string? name;
-    private string? department;
-    private double salary;
-
-    public Employee(int id, string? name, string? department, double salary)
-    {
-        this.id = id;
-        this.name = name;
-        this.department = department;
-        this.salary = salary;
-    }
-}
-
-internal class EmployeePayrollService : IEmployeePayrollService
-{
-    public void AddEmployee(Employee employee)
-    {
-        throw new NotImplementedException();
-    }
-
-    public double CalculateTotalPayroll()
-    {
-        throw new NotImplementedException();
-    }
-
-    public object GetAllEmployees()
-    {
-        throw new NotImplementedException();
-    }
-
-    public object GetEmployeeById(int id)
-    {
-        throw new NotImplementedException();
-    }
-}
-
-internal interface IEmployeePayrollService
-{
-    void AddEmployee(Employee employee);
-    double CalculateTotalPayroll();
-    object GetAllEmployees();
-    object GetEmployeeById(int id);
 }

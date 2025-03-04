@@ -1,0 +1,14 @@
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/bin/Debug/net8.0/EmployeePayrollSystem
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/bin/Debug/net8.0/EmployeePayrollSystem.deps.json
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/bin/Debug/net8.0/EmployeePayrollSystem.runtimeconfig.json
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/bin/Debug/net8.0/EmployeePayrollSystem.dll
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/bin/Debug/net8.0/EmployeePayrollSystem.pdb
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/EmployeePayrollSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/EmployeePayrollSystem.AssemblyInfoInputs.cache
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/EmployeePayrollSystem.AssemblyInfo.cs
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/EmployeePayrollSystem.csproj.CoreCompileInputs.cache
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/EmployeePayrollSystem.dll
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/refint/EmployeePayrollSystem.dll
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/EmployeePayrollSystem.pdb
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/EmployeePayrollSystem.genruntimeconfig.cache
+/Users/macbookair/Desktop/EmployeePayrollSystem/EmployeePayrollSystem/obj/Debug/net8.0/ref/EmployeePayrollSystem.dll

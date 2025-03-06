@@ -1,4 +1,6 @@
 
+using EmployeePayrollSystem.Domain;
+
 namespace EmployeePayrollSystem.Application.Interfaces
 {
     public interface IEmployeePayrollService
@@ -7,28 +9,8 @@ namespace EmployeePayrollSystem.Application.Interfaces
         Employee GetEmployeeById(int id);
         List<Employee> GetAllEmployees();
         double CalculateTotalPayroll();
-        void AddEmployee(Domain.Employee employee);
+        //void AddEmployee(Domain.Employee employee);
     }
 
-    public class Employee
-    {
-        private string? name;
-        private string? department;
-        private double salary;
-
-        public Employee(int id, string? name, string? department, double salary)
-        {
-            Id = id;
-            this.name = name;
-            this.department = department;
-            this.salary = salary;
-        }
-
-        public int Id { get; internal set; }
-
-        internal double CalculateNetSalary()
-        {
-            throw new NotImplementedException();
-        }
-    }
+    
 }
